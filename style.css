@@ -1,0 +1,114 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+}
+button {
+  background: linear-gradient(180deg, #ff4c4c 0%, #a94e97 100%);
+  border-radius: 28px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+nav {
+  position: absolute;
+  right: 20px;
+  width: max-width;
+  justift-content: flex-end;
+  padding: 10px;
+}
+.container {
+  display: grid;
+  grid-template: auto auto/ auto auto auto;
+  padding: 30px;
+  gap: 20px;
+}
+.item {
+  padding: 30px;
+  border: 1px solid black;
+  width: 60%;
+  box-shadow: 0.5px 0px 0.5px black, -0.5px 0px 0.5px black, 0px 2px 2px black;
+  border-radius: 15px;
+}
+
+body {
+  background-color: ;
+}
+
+.heading-description {
+  flex-wrap: wrap;
+  width: 400px;
+  height: 100px;
+}
+
+.top-grid {
+  display: grid;
+  grid-template-areas:
+    "header-text header-img"
+    "header-text header-img";
+
+  margin: 200px;
+  padding: 50px;
+  justify-content: center;
+  align-content: center;
+  column-gap: 50px;
+}
+
+.page-heading {
+  font-size: 28px;
+}
+
+.header-text {
+  grid-area: header-text;
+}
+
+.header-img {
+  grid-area: header-img;
+}
+
+.grid-item {
+  //border: solid black 5px;
+}
+@media (max-devicewidth: 1100px);
+
+.corner-cupcake {
+  width: 80px;
+  height: 80px;
+}
+
+.class1 {
+  position: absolute;
+  top: 1;
+}
+class2 {
+  position: relative;
+  top: 1px;
+  left: 40px;
+}
+
+.item-gradient {
+  background: linear-gradient(180deg, #ff4c4c 0%, #a94e97 100%);
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 15px;
+}
+
+.header-text {
+  display: grid;
+}
+
+.header-content {
+}
+
+.gradient-text {
+  font-size: 36px;
+}
+
+footer {
+  background-color: #ff4c4c;
+  height: 50px;
+  display: flex;
+}
